@@ -36,13 +36,13 @@ header h1 {
   width: 100%;
 }
 
-.menu-icon {
+/* .menu-icon {
   display: none;
-}
+} */
 
-.menu-icon img {
+/* .menu-icon img {
   width: 24px;
-}
+} */
 
 /* .initials {
 background-color: #000;
@@ -99,9 +99,10 @@ margin: 0 50px 0 0;
 
 .navbar-section a {
   color: #FFF;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 90px;
   text-decoration: none;
+  text-shadow: 1px 1px 4px #000;
   text-transform: uppercase;
 }
 
@@ -168,7 +169,7 @@ a.anchor {
 
 #envelope {
   margin: 0;
-  width: 20px;
+  width: 40px;
   padding: 0;
 }
 
@@ -210,7 +211,31 @@ hr {
 
 
 @media only screen and (max-width: 1000px) {
-  .menu-icon {
+
+  .center {
+    padding: 75px;
+  }
+
+  .fade {
+    /* Firefox */
+    -moz-transition: none;
+    /* WebKit */
+    -webkit-transition: none;
+    /* Opera */
+    -o-transition: none;
+    /* Standard */
+    transition: none;
+  }
+
+  header {
+    overflow: auto;
+  }
+
+  .header-img-container img {
+    margin-top: 90px;
+  }
+
+  /* .menu-icon {
     display: inline-block;
     position: absolute;
     right: 0;
@@ -219,28 +244,40 @@ hr {
   .menu-icon img {
     margin: 8px 20px 0 0;
     vertical-align: middle;
-  }
+  } */
 
   .name {
     display: inline-block;
   }
 
   .name h1 {
-    padding: 20px;
+    padding: 30px;
   }
 
   nav {
     background-color: black !important;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding: 10px 0;
-    overflow: hidden;
+    overflow: auto;
   }
 
-  .navbar-section #menu-links {
-    display: none;
+  .navbar-section {
+    padding: 0 30px 0 0;
   }
 
-  .title-area {
-    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar-section ul {
+    display: inline-block;
   }
+
+  .navbar-section li {
+    display: block;
+  }
+
+  .navbar-section a {
+    line-height: 40px;
+  }
+
 }
