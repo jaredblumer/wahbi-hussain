@@ -94,6 +94,7 @@ margin: 0 50px 0 0;
 
 .on-scroll {
   background-color: black !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .title-area {
@@ -106,12 +107,20 @@ margin: 0 50px 0 0;
 
 /* Body */
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -140px;
+    visibility: hidden;
+}
+
 .body-container h2 {
-  color: #8C8C8C;
-  font-size: 36px;
+  color: #222;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 48px;
   font-weight: 500;
   margin: 0 0 20px 0;
-  padding: 0 0 0 80px;
+  padding: 0;
   text-transform: uppercase;
 }
 
@@ -122,13 +131,63 @@ margin: 0 50px 0 0;
 }
 
 .center p {
+  color: #5B5B5B;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 1.25em;
+  text-align: center;
   text-rendering: optimizeLegibility;
 }
 
 .center .title {
   text-align: center;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-link a {
+  color:#000;
+  text-decoration: none;
+}
+
+#envelope {
+  margin: 0;
+  width: 20px;
+  padding: 0;
+}
+
+footer {
+  align-items: center;
+  background-color: #DFDFDF;
+  color: #5B5B5B;
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  width: 100%;
+}
+
+footer p {
+  font-family: Arial;
+  font-size: 12px;
+}
+
+hr {
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  border-top: 1px solid #8b8b8b;
+  margin: 0 auto 50px auto;
+  max-width: 400px;
+  position: relative;
+}
+
+.the-book-header-image {
+  text-align: center;
+}
+
+.the-book-header-image img {
+  width: 1000px;
 }
