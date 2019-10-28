@@ -36,6 +36,14 @@ header h1 {
   width: 100%;
 }
 
+.menu-icon {
+  display: none;
+}
+
+.menu-icon img {
+  width: 24px;
+}
+
 /* .initials {
 background-color: #000;
 display: inline-block;
@@ -195,5 +203,44 @@ hr {
 }
 
 .the-book-header-image img {
-  width: 1000px;
+  width: 100%;
+}
+
+/* Media Queries */
+
+
+@media only screen and (max-width: 1000px) {
+  .menu-icon {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  .menu-icon img {
+    margin: 8px 20px 0 0;
+    vertical-align: middle;
+  }
+
+  .name {
+    display: inline-block;
+  }
+
+  .name h1 {
+    padding: 20px;
+  }
+
+  nav {
+    background-color: black !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    padding: 10px 0;
+    overflow: hidden;
+  }
+
+  .navbar-section #menu-links {
+    display: none;
+  }
+
+  .title-area {
+    width: 100%;
+  }
 }

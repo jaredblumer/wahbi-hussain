@@ -10,3 +10,14 @@ window.onscroll = function() {
     navbar.classList.remove("on-scroll");
   }
 };
+
+// Menu Toggle Script
+
+function toggle() {
+  var links = document.getElementById("menu-links");
+  if (links.style.display === "block") {
+    links.style.display = "none !important";
+  } else {
+    links.style.display = "block !important";
+  }
+}
