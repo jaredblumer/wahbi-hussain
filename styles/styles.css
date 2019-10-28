@@ -21,6 +21,19 @@ html {
   transition: all 0.4s linear;
 }
 
+.gallery-photo-div {
+  display: inline-block;
+  padding-top: 20px;
+  text-align: center;
+  width: 350px;
+}
+
+.gallery-photo-div img {
+  box-shadow: 1px 1px 4px #000;
+  margin-bottom: 10px;
+  width: 275px;
+}
+
 header h1 {
   color: #FFF;
   display: inline;
@@ -138,10 +151,14 @@ a.anchor {
   text-transform: uppercase;
 }
 
+.caption {
+  display: block;
+}
+
 .center {
   margin: 0 auto;
   max-width: 1000px;
-  padding: 50px 15px;
+  padding: 50px 15px 30px 15px;
 }
 
 .center p {
@@ -160,6 +177,7 @@ a.anchor {
 
 .contact-container {
   text-align: center;
+  margin: 0 0 60px 0;
 }
 
 .contact-link a {
@@ -197,6 +215,14 @@ hr {
   max-width: 400px;
   position: relative;
   z-index: 0;
+}
+
+.my-story-gallery-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1000px;
+  justify-content: space-evenly;
 }
 
 .the-book-header-image {
