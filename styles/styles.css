@@ -205,12 +205,23 @@ hr {
   z-index: 0;
 }
 
+.my-story-gallery {
+  display: flex;
+  justify-content: center;
+}
+
 .my-story-gallery-images-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
-  max-width: 1000px;
+  padding: 5px;
   justify-content: space-evenly;
+  max-width: 1200px;
+}
+
+.my-story-gallery-images-container img {
+  height: 250px;
+  margin: 10px;
+  box-shadow: 1px 1px 4px #000;
 }
 
 .the-book-header-image {
@@ -223,9 +234,9 @@ hr {
 }
 
 
-/* 1100px Break */
+/* 1200px Break */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .nav-links {
     width: 50%;
   }
