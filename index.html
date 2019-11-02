@@ -22,11 +22,13 @@
   <link rel="stylesheet" href="styles/styles.css">
 
   <script>
-    $(document).ready(function(){
-      $('.slider').bxSlider({
+    $(function(){
+      $('.bxslider').bxSlider({
+        preloadImages: 'all',
         mode: 'fade',
         captions: true,
-        slideWidth: 600;
+        auto: true,
+        slideWidth: 600
       });
     });
   </script>
@@ -153,7 +155,6 @@
   <div class="center">
     <a class="anchor" id="talks"></a>
     <div class="talks-container">
-      <a class="anchor" id="contact"></a>
       <div class="title">
         <h2>Talks & Appearances</h2>
         <hr />
@@ -166,12 +167,21 @@
     </div>
   </div>
 
+  <div class="center">
+    <div class="talks-container">
+      <h3>Past Appearances</h3>
+    </div>
+    <div class="bxslider">
+      <div><img src="images/talks_and_appearances/US_Citizenship_Speaking.jpg" title="Carnegie Mellon University, Reserve Officer Training Corps (ROTC)" /></div>
+      <div><img src="images/talks_and_appearances/Savanah3.jpg" title="United States Citizenship and Immigration Services (USCIS), Citizenship Ceremony" /></div>
+      <div><img src="images/talks_and_appearances/41st_fire2.jpg" title="The 335th Signal Command, United States Army" /></div>
+      <div><img src="images/talks_and_appearances/Savanah2.jpg" title="Catholic Charities Refugee Department" /></div>
+    </div>
+  </div>
 
-  <!-- <div class="slider">
-    <div><img src="/images/talks_and_appearances/US_Citizenship_Speaking.jpg" title="Carnegie Mellon University, Reserve Officer Training Corps (ROTC)" /></div>
-    <div><img src="/images/talks_and_appearances/Savanah3.jpg" title="United States Citizenship and Immigration Services (USCIS), Citizenship Ceremony" /></div>
-  </div> -->
-
+  <div class="filler-div">
+    
+  </div>
 
   <!-- Contact -->
 

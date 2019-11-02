@@ -13,6 +13,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.center-slider {
+  display: block;
+  margin: 0 auto;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -98,6 +103,7 @@ a.anchor {
   margin: 0 auto;
   max-width: 1000px;
   padding: 50px 15px 30px 15px;
+  text-align: center;
 }
 
 .center p {
@@ -111,6 +117,14 @@ a.anchor {
 
 .center .title {
   text-align: center;
+}
+
+.filler-div {
+  height: 30px;
+}
+
+.bx-wrapper {
+  margin: 0 auto;
 }
 
 .contact-container {
