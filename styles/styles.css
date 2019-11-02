@@ -13,8 +13,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Navigation Bar */
-
 nav {
   display: flex;
   justify-content: space-around;
@@ -70,58 +68,10 @@ nav {
   transition: all 0.3s ease;
 }
 
-
-.fade {
-  /* Firefox */
-  -moz-transition: all 0.4s linear;
-  /* WebKit */
-  -webkit-transition: all 0.4s linear;
-  /* Opera */
-  -o-transition: all 0.4s linear;
-  /* Standard */
-  transition: all 0.4s linear;
-}
-
-.gallery-photo-div {
-  display: inline-block;
-  padding-top: 20px;
-  text-align: center;
-  width: 350px;
-}
-
-.gallery-photo-div img {
-  box-shadow: 1px 1px 4px #000;
-  margin-bottom: 10px;
-  width: 275px;
-}
-
 .header-img-container img {
   width: 100%;
   margin-top: 75px;
 }
-
-.name {
-  display: inline;
-}
-
-.name a {
-  text-decoration: none;
-}
-
-.on-scroll {
-  background-color: black !important;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-}
-
-.title-area {
-  /* display: inline-block; */
-  /* float: left; */
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* Body */
 
 a.anchor {
     display: block;
@@ -233,12 +183,42 @@ hr {
   width: 100%;
 }
 
+.talks-container {
+  text-align: center;
+}
+
+.talks-container h3 {
+  color: #222222;
+  font-size: 36px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.talks-container h4 {
+  color: #000;
+  font-size: 26px;
+  font-weight: 200;
+}
+
+.talks-container p {
+  color: #5B5B5B;
+}
+
 
 /* 1200px Break */
 
 @media screen and (max-width: 1200px) {
   .nav-links {
     width: 50%;
+  }
+}
+
+/* 1000px Break */
+@media screen and (max-width: 1000px) {
+  .my-story-gallery img {
+    height: auto;
+    width: 80%;
   }
 }
 
@@ -304,6 +284,25 @@ hr {
 
   .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -5px);
+  }
+
+  .talks-container h2 {
+    font-size: 36px;
+    font-weight: 200;
+  }
+
+  .talks-container h3 {
+    font-size: 32px;
+    font-weight: 200;
+  }
+
+  .talks-container h4 {
+    font-size: 24px;
+    font-weight: 200;
+  }
+
+  .talks-container p {
+    font-size: 18px;
   }
 
 }

@@ -7,13 +7,29 @@
   <meta name="author" content="Jared Blumer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Wahbi Hussain</title>
+  <title>Wahbi Hussain</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles/styles.css">
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+        mode: 'fade',
+        captions: true,
+        slideWidth: 600;
+      });
+    });
+  </script>
 
 </head>
 
@@ -32,7 +48,7 @@
         <a href="#the_book">The Book</a>
       </li>
       <li>
-        <a href="#">Talks</a>
+        <a href="#talks">Talks</a>
       </li>
       <li>
         <a href="#contact">Contact</a>
@@ -130,6 +146,32 @@
       On behalf of those who stood up to do the right thing but never made it to tell their story, I am standing up again. I am taking another risk by sharing this powerful true story. My hope is that it will inspire people, and possibly save lives. Through small contributions and acts of kindness, we can all change the world. I hope that my story will help people discover and unleash their already existing hidden potential, just like I discovered and unleashed mine!
     </p>
   </div>
+
+
+  <!-- Talks & Appearances -->
+
+  <div class="center">
+    <a class="anchor" id="talks"></a>
+    <div class="talks-container">
+      <a class="anchor" id="contact"></a>
+      <div class="title">
+        <h2>Talks & Appearances</h2>
+        <hr />
+      </div>
+      <h3>Upcoming Appearances</h3>
+      <h4>PNC Military Employee Business Resource Groups</h4>
+      <p>To Be Announced</p>
+      <h4>Duquesne University</h4>
+      <p>To Be Announced</p>
+    </div>
+  </div>
+
+
+  <!-- <div class="slider">
+    <div><img src="/images/talks_and_appearances/US_Citizenship_Speaking.jpg" title="Carnegie Mellon University, Reserve Officer Training Corps (ROTC)" /></div>
+    <div><img src="/images/talks_and_appearances/Savanah3.jpg" title="United States Citizenship and Immigration Services (USCIS), Citizenship Ceremony" /></div>
+  </div> -->
+
 
   <!-- Contact -->
 
