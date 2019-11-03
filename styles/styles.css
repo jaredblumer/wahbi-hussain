@@ -184,6 +184,7 @@ hr {
 
 .my-story-gallery-images-container img {
   height: 250px !important;
+  width: auto !important;
   margin: 10px;
   box-shadow: 1px 1px 4px #000;
 }
@@ -319,4 +320,10 @@ hr {
     font-size: 18px;
   }
 
+}
+
+@media screen and (max-width: 450px) {
+  .my-story-gallery-images-container img {
+    width: 100%;
+    height: auto;
 }
