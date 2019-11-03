@@ -183,7 +183,7 @@ hr {
 }
 
 .my-story-gallery-images-container img {
-  height: 250px;
+  height: 250px !important;
   margin: 10px;
   box-shadow: 1px 1px 4px #000;
 }
