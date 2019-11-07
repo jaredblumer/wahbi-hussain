@@ -1,15 +1,19 @@
-// Navigation Script
+// nav.js - Navigation Menu Scripts
 
-// var navbar = document.getElementById("navbar");
-//
-// window.onscroll = function() {
-//   "use strict";
-//   if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-//     navbar.classList.add("on-scroll");
-//   } else {
-//     navbar.classList.remove("on-scroll");
-//   }
-// };
+// Menu Opacity Change on Scroll
+
+var navbar = document.getElementById("navbar");
+
+window.onscroll = function() {
+  "use strict";
+  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+    navbar.classList.add("on-scroll");
+  } else {
+    navbar.classList.remove("on-scroll");
+  }
+};
+
+// Menu Slider
 
 const navSlide = () => {
   const burger = document.querySelector('.burger');
