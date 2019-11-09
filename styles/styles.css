@@ -207,6 +207,20 @@ hr {
   box-shadow: 1px 1px 4px #000;
 }
 
+.my-story-gallery-image-div {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  margin: 10px auto;
+  max-width: 350px;
+}
+
+.my-story-gallery-image-div p {
+  margin: 5px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
 .the-book-header-image {
   text-align: center;
 }
