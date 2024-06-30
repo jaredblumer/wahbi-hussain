@@ -8,7 +8,6 @@ Welcome to the repository for Wahbi Hussain's professional portfolio, hosted at 
 
 - **Responsive Design**: Optimized for viewing on desktops, tablets, and mobile devices.
 - **Interactive Elements**: Smooth scrolling, hover effects, and other interactive features to enhance user experience.
-- **Dynamic Content**: Easy to update and manage projects, blog posts, and other content.
 - **SEO Friendly**: Optimized for search engines to improve visibility.
 
 ## Technologies Used
