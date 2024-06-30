@@ -2,6 +2,8 @@
 
 Welcome to the repository for Wahbi Hussain's professional portfolio, hosted at [wahbihussain.me](https://wahbihussain.me/). The website serves to showcase Wahbi's work, skills, and professional background.
 
+![Screen Capture](https://github.com/shyblumer/wahbi-hussain/blob/master/images/wahbi-hussain-screen-capture.gif)
+
 ## Features
 
 - **Responsive Design**: Optimized for viewing on desktops, tablets, and mobile devices.
