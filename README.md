@@ -1,6 +1,6 @@
 # Wahbi Hussain's Portfolio
 
-Welcome to the repository for Wahbi Hussain's professional portfolio, hosted at [wahbihussain.me](https://wahbihussain.me/). The website serves to showcase Wahbi's work, skills, and professional background.
+Welcome to the repository for Wahbi Hussain's professional portfolio. The website serves to showcase Wahbi's work, skills, and professional background.
 
 ![Screen Capture](https://github.com/shyblumer/wahbi-hussain/blob/master/images/wahbi-hussain-screen-capture.gif)
 
@@ -20,7 +20,6 @@ Welcome to the repository for Wahbi Hussain's professional portfolio, hosted at 
 This project is licensed under the [MIT License](https://opensource.org/license/mit).
 
 ## Author
-**Shy Blumer** (they/them), Full-Stack Software Engineer and Data Analyst 🏳️‍🌈🏳️‍⚧️  
-- [GitHub](https://github.com/shyblumer)
-- [LinkedIn](https://www.linkedin.com/in/shyblumer/)
-- [Résumé](https://www.imshy.net/resume)
+**Jared Blumer** (they/them), Full-Stack Software Engineer and Data Analyst 🏳️‍🌈🏳️‍⚧️  
+- [GitHub](https://github.com/jaredblumer)
+- [LinkedIn](https://www.linkedin.com/in/jaredblumer/)
